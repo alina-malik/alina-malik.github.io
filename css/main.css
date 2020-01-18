@@ -1,0 +1,152 @@
+@font-face{
+  font-family: "Gost";
+  src: url("../fonts/Gost.woff2") format("truetype");
+  font-style: normal; 
+  font-weight: normal; 
+}
+
+body{
+  margin: 0;
+  overflow: hidden;
+  background-image: url('../image/background.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom left;
+  position: relative;
+}
+/* .container{
+  background-image: url('../image/background.jpg');
+  background-size: cover;
+  background-position: bottom left;
+  position: relative;
+} */
+.bcg{
+  width: 100vw;
+  height: 100vh;
+}
+.d-none{
+  display: none;
+}
+.o-zero{
+  opacity: 0;
+}
+.center{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1);
+}
+.no-pergament{
+  transform: translate(-50%, -50%) scaleY(0) !important;
+}
+.pergament{
+  width: 550px;
+  height: auto;
+  transition: all 1.5s;
+  z-index: 9999;
+}
+.black{
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.836);
+  transition: opacity 1s;
+  z-index: 999;
+}
+.indent{
+  margin: 10px 0;
+}
+.hide-line{
+  transform: translate(-50%, 100%) !important;
+}
+.line{
+  height: auto;
+  width: 350px;
+  transform: translate(-50%, 160%);
+  z-index: 99999;
+  transition: all 1s;
+}
+.line:hover{
+  transform: translate(-50%, 160%) scale(1.1);
+}
+.text{
+  width: 386.69px;
+  height: 413.64px;
+  transform: translate(-50%, -63%);
+  font-family: "Gost";
+  font-size: 30px;
+  text-align: center;
+  z-index: 99999;
+  transition: opacity 1s;
+}
+.note{
+  position: fixed;
+  right: 50px;
+  top: 50px;
+  width: 300px;
+  height: auto;
+}
+.drop{
+  width: 200px;
+  height: 300px;
+  position: absolute;
+  left: 406px;
+  top: 439px;
+  /* background: red; */
+  z-index: 9999;
+}
+.vase{
+  /* border: 1px solid brown; */
+  width: 600px;
+  height: auto;
+  position: absolute;
+  left: 222px;
+  top: 160px;
+}
+.tulip_always{
+  /* border: 1px solid brown; */
+  width: auto;
+  height: 500px;
+  position: absolute;
+}
+.tulip:nth-last-child(1){
+  top: 75px;
+  left: 63px;
+  transform: rotateZ(-20deg);
+  z-index: 111;
+}
+.tulip:nth-last-child(2){
+  top: 16px;
+  left: 274px;
+  transform: rotateZ(-5deg);
+  z-index: 122;
+}
+.tulip:nth-last-child(3){
+  top: 492px;
+  left: 819px;
+  transform: rotateZ(-60deg) scale(.8);
+  z-index: 133;
+}
+.tulip:nth-last-child(4){
+  top: 105px;
+  left: 740px;
+  transform: rotateZ(46deg);
+  z-index: 144;
+}
+.tulip:nth-last-child(5){
+  top: 15px;
+  left: 591px;
+  transform: rotateZ(25deg);
+  z-index: 155;
+}
+.tulip:nth-last-child(6){
+  top: 26px;
+  left: 440px;
+  z-index: 166;
+}
+.tulip:nth-last-child(7){
+  top: 430px;
+  left: 975px;
+  transform: rotateZ(-50deg) scale(.9);
+  z-index: 177;
+}
