@@ -9,6 +9,7 @@ body{
   margin: 0;
   overflow: hidden;
   background-image: url('../image/background.jpg');
+  background-color: #67452a;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom left;
@@ -91,7 +92,7 @@ body{
   height: 300px;
   position: absolute;
   left: 406px;
-  top: 439px;
+  top: 449px;
   /* background: red; */
   z-index: 9999;
 }
@@ -101,7 +102,7 @@ body{
   height: auto;
   position: absolute;
   left: 222px;
-  top: 160px;
+  top: 170px;
 }
 .tulip_always{
   /* border: 1px solid brown; */
@@ -110,43 +111,43 @@ body{
   position: absolute;
 }
 .tulip:nth-last-child(1){
-  top: 75px;
+  top: 85px;
   left: 63px;
   transform: rotateZ(-20deg);
   z-index: 111;
 }
 .tulip:nth-last-child(2){
   top: 16px;
-  left: 274px;
+  left: 284px;
   transform: rotateZ(-5deg);
   z-index: 122;
 }
 .tulip:nth-last-child(3){
   top: 492px;
-  left: 819px;
+  left: 829px;
   transform: rotateZ(-60deg) scale(.8);
   z-index: 133;
 }
 .tulip:nth-last-child(4){
   top: 105px;
-  left: 740px;
+  left: 750px;
   transform: rotateZ(46deg);
   z-index: 144;
 }
 .tulip:nth-last-child(5){
   top: 15px;
-  left: 591px;
+  left: 601px;
   transform: rotateZ(25deg);
   z-index: 155;
 }
 .tulip:nth-last-child(6){
   top: 26px;
-  left: 440px;
+  left: 450px;
   z-index: 166;
 }
 .tulip:nth-last-child(7){
   top: 430px;
-  left: 975px;
+  left: 985px;
   transform: rotateZ(-50deg) scale(.9);
   z-index: 177;
 }
